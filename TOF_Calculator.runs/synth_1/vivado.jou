@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Tue Oct 15 12:38:43 2024
+# Process ID: 12504
+# Current directory: C:/temp/TOF_Calculator/TOF_Calculator.runs/synth_1
+# Command line: vivado.exe -log TOF_calc.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOF_calc.tcl
+# Log file: C:/temp/TOF_Calculator/TOF_Calculator.runs/synth_1/TOF_calc.vds
+# Journal file: C:/temp/TOF_Calculator/TOF_Calculator.runs/synth_1\vivado.jou
+# Running On        :Stationær
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :AMD Ryzen 9 3900X 12-Core Processor            
+# CPU Frequency     :3800 MHz
+# CPU Physical cores:12
+# CPU Logical cores :24
+# Host memory       :17101 MB
+# Swap memory       :6979 MB
+# Total Virtual     :24080 MB
+# Available Virtual :9463 MB
+#-----------------------------------------------------------
+source TOF_calc.tcl -notrace

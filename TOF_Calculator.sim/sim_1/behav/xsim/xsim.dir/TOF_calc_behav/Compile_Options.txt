@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "TOF_calc_behav" "xil_defaultlib.TOF_calc" -log "elaborate.log" 

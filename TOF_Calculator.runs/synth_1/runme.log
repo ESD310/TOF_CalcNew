@@ -1,0 +1,35 @@
+
+*** Running vivado
+    with args -log TOF_calc.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOF_calc.tcl
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Tue Oct 15 12:38:43 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source TOF_calc.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 512.445 ; gain = 201.031
+Command: synth_design -top TOF_calc -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22060
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 971.734 ; gain = 454.375
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TOF_calc' [C:/temp/TOF_Calculator/TOF_Calculator.srcs/sources_1/new/TOF_calc.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'TOF_calc' (0#1) [C:/temp/TOF_Calculator/TOF_Calculator.srcs/sources_1/new/TOF_calc.vhd:21]
+WARNING: [Synth 8-3330] design TOF_calc has an empty top module
+WARNING: [Synth 8-7129] Port rdy_in in module TOF_calc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port klok in module TOF_calc is either unconnected or has no load
+WARNING: [Synth 8-7129] Port reset_in in module TOF_calc is either unconnected or has no load
+TclStackFree: incorrect freePtr (0000020FC825AC00 != 0000020FC825B440). Call out of sequence?
+Abnormal program termination (EXCEPTION_BREAKPOINT)
+Please check 'C:/temp/TOF_Calculator/TOF_Calculator.runs/synth_1/hs_err_pid12504.log' for details
